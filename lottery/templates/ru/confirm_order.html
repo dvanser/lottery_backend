@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Pasūtījums</title>
+      <style>
+          .h1 {
+              margin-bottom: 40px;
+              font-size: 30px;
+          }
+          th {
+              font-size: 24px;
+              font-weight: bold
+          }
+          .text {
+              font-size: 24px;
+              font-weight: normal;
+          }
+          .big-bold {
+              font-size: 26px;
+              font-weight: bold;
+          }
+          body {
+              font-size: 20px;
+              font-weight: normal;
+              padding: 40px;
+              line-height: 40px;
+          }
+          table, th, td {
+              border: 2px solid deepskyblue;
+              text-align: left;
+              border-collapse:collapse;
+          }
+          table  {
+              margin-top: 20px;
+          }
+      </style>
+   </head>
+   <body>
+      <div class="h1">
+         <h1>Спасибо за заказ!</h1>
+      </div>
+     <div class="header">
+        <div class="text">Привет, ??NAME??,</div>
+        <div class="text">??INFO??</div>
+        <div class="big-bold">[Заказ #??ORDER_ID??] (Июнь ??DATE??, 2021).</div>
+        <table class="customTable">
+           <thead>
+              <tr>
+                 <th>Продукт</th>
+                 <th>Количество </th>
+              </tr>
+           </thead>
+           <tbody>
+              ??PRODUCTS??
+               <tr>
+                   <td><strong>??DELIVERY??</strong></td>
+                   <td>??DPD??</td>
+               </tr>
+                <tr>
+                    <td><strong>Оставшиеся количество палочек:</strong></td>
+                   <td>??STICKS??</td>
+               </tr>
+           </tbody>
+        </table>
+        <br>
+         <div class="big-bold">Контактная информация</div>
+         <div class="text">??NAME??</div>
+         <div class="text">??PHONE??</div>
+         <div class="text">??EMAIL??</div>
+         <div class="text">Спасибо за использование <a href="www.lottery.lv">lottery.lv!</a></div>
+     </div>
+   </body>
+</html>

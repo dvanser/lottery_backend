@@ -1,0 +1,75 @@
+# Latvian translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-28 00:45+0300\n"
+"PO-Revision-Date: 2021-05-26 00:32+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: lv\n"
+"Language-Team: lv <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 :"
+" 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: __init__.py:122 users.py:117
+msgid "signup_email_subject"
+msgstr "Apstiprināt profilu"
+
+#: __init__.py:123 users.py:118
+msgid "signup_verification_email_text_first"
+msgstr "Sveiki!"
+
+#: __init__.py:124 users.py:119
+msgid "signup_verification_email_text_second"
+msgstr "Priecājamies par Tavu lēmumu pievienoties lottery.lv!"
+
+#: __init__.py:125 users.py:120
+msgid "signup_verification_email_text_third"
+msgstr "Lai pabeigtu reģistrāciju, spied zemāk un apstiprini savu e-pasta adresi."
+
+#: __init__.py:132 __init__.py:137 users.py:127 users.py:132
+msgid "signup_verification_email_welcome_button"
+msgstr "Apstiprināt"
+
+#: prizes.py:192
+msgid "request_prize_email_subject"
+msgstr "Paldies par pasūtījumu!"
+
+#: prizes.py:193
+msgid "request_prize_email_text"
+msgstr "Jūs pieprāsījāt dāvanud"
+
+#: users.py:177
+msgid "password_reset_request_subject"
+msgstr "Paroles maiņa"
+
+#: users.py:178
+msgid "password_reset_request_subject_text_first"
+msgstr "Sveiki!"
+
+#: users.py:179
+msgid "password_reset_request_subject_text_second"
+msgstr ""
+"Gadījumā, ja esi aizmirsis savu paroli, to iespējams atjaunot <a "
+"href=\"{}\">šeit</a></p><br />"
+
+#: users.py:232
+msgid "password_reset_success_subject"
+msgstr "Paroles maiņa"
+
+#: users.py:233
+msgid "password_reset_success_email_text_first"
+msgstr "Sveiki!"
+
+#: users.py:234
+msgid "password_reset_success_email_text_second"
+msgstr "Tava parole ir veiksmīgi nomainīta."
+

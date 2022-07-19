@@ -1,0 +1,71 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-28 00:45+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: __init__.py:122 users.py:117
+msgid "signup_email_subject"
+msgstr ""
+
+#: __init__.py:123 users.py:118
+msgid "signup_verification_email_text_first"
+msgstr ""
+
+#: __init__.py:124 users.py:119
+msgid "signup_verification_email_text_second"
+msgstr ""
+
+#: __init__.py:125 users.py:120
+msgid "signup_verification_email_text_third"
+msgstr ""
+
+#: __init__.py:132 __init__.py:137 users.py:127 users.py:132
+msgid "signup_verification_email_welcome_button"
+msgstr ""
+
+#: prizes.py:192
+msgid "request_prize_email_subject"
+msgstr ""
+
+#: prizes.py:193
+msgid "request_prize_email_text"
+msgstr ""
+
+#: users.py:177
+msgid "password_reset_request_subject"
+msgstr ""
+
+#: users.py:178
+msgid "password_reset_request_subject_text_first"
+msgstr ""
+
+#: users.py:179
+msgid "password_reset_request_subject_text_second"
+msgstr ""
+
+#: users.py:232
+msgid "password_reset_success_subject"
+msgstr ""
+
+#: users.py:233
+msgid "password_reset_success_email_text_first"
+msgstr ""
+
+#: users.py:234
+msgid "password_reset_success_email_text_second"
+msgstr ""
+
